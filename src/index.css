@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+html,body{
+        font-family:  sans-serif;
+
+        margin: 30px;
+}
+.mainLayout{
+    /* background-color: (rgb(255, 255, 2355)); */
+    background-color: rgba(235, 234, 246, .4);
+
+    background-image: radial-gradient(
+        rgba(141, 140, 140, 0.8)1px, transparent 1px);
+        background-size: 30px 30px;
+}
+::-webkit-scrollbar{
+        display: none;
+}
