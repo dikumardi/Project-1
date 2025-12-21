@@ -9,6 +9,7 @@ import ProcessSection from './pages/ProcessSection'
 import HeroSection from './pages/HeroSection'
 import QuotesSection from './pages/QuotesSection'
 import FeatSection from './pages/FeatSection'
+import Benifits from './pages/Benifits'
 
 const App = () => {
     const ProjectsContainerData = [
@@ -29,6 +30,7 @@ const App = () => {
     <ProcessSection/>
     <QuotesSection/>
     <FeatSection/>
+    <Benifits/>
     </div>
   )
 }
