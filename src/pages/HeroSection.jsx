@@ -62,8 +62,8 @@ const HeroSection = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="bg-black w-full max-w-5xl py-4 mt-10 rounded-full overflow-hidden z-10">
-        <div className="text-white flex justify-center gap-6 md:gap-10 text-sm md:text-base px-4">
+      <div className="bg-black w-full max-w-5xl py-4 mt-10   rounded-full overflow-hidden z-10 ">
+        <div className="text-white flex justify-center gap-6 md:gap-10 text-sm md:text-base px-4  ">
           <h1>lorem</h1>
           <h1>ipsum</h1>
           <h1>voluptas</h1>

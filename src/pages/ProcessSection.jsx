@@ -1,4 +1,7 @@
-import React from 'react'
+import  media1 from '../assets/media1.svg'
+import  media1arrows from '../assets/media1arrows.svg'
+import  media2 from '../assets/media2.svg'
+import  media3 from '../assets/media3.svg'
 
 const ProcessSection = () => {
   return (
@@ -19,21 +22,31 @@ const ProcessSection = () => {
       <div className="mt-12 flex flex-col sm:flex-row gap-8">
         
         <div className="w-full sm:w-[256px] flex flex-col items-center text-center p-4">
-          <div className="w-20 h-20 bg-emerald-600 rounded-full mb-3"></div>
+          <div className="w-20 h-20 rounded-full mb-3">
+          <img src={media1} alt="" />
+          <img src={media1arrows} alt="" className='absolute 
+           right-48 top-385
+           sm:
+          lg:top-375 left-112   w-13'/>
+          </div>
           <p>
             Subscribe to a plan & request as many designs as you’d like.
           </p>
         </div>
 
         <div className="w-full sm:w-[256px] flex flex-col items-center text-center p-4">
-          <div className="w-20 h-20 bg-emerald-600 rounded-full mb-3"></div>
+          <div className="w-20 h-20 rounded-full mb-3">
+          <img src={media2} alt="" />
+          </div>
           <p>
             Receive your design within two business days on average.
           </p>
         </div>
 
         <div className="w-full sm:w-[256px] flex flex-col items-center text-center p-4">
-          <div className="w-20 h-20 bg-emerald-600 rounded-full mb-3"></div>
+          <div className="w-20 h-20 rounded-full mb-3">
+          <img src={media3} alt="" />
+          </div>
           <p>
             We'll revise the designs until you're 100% satisfied.
           </p>
