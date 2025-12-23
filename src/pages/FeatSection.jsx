@@ -9,7 +9,7 @@ const FeatSection = () => {
         <div className="w-full max-w-5xl flex flex-col lg:flex-row gap-10 mt-10">
 
           {/* Quote card */}
-          <div className="w-full lg:w-[488px] bg-white p-6 sm:p-8 lg:p-10">
+          <div className="w-full lg:w-122 bg-white p-6 sm:p-8 lg:p-10">
             <h5 className="text-[20px] sm:text-[22px] lg:text-[24px]">
               “Design is everything, and these guys have nailed it.”
             </h5>
@@ -23,13 +23,13 @@ const FeatSection = () => {
               <img
                 src={man}
                 alt=""
-                className="w-40 sm:w-48 lg:w-[212px] h-auto"
+                className="w-40 sm:w-48 lg:w-53 h-auto"
               />
             </div>
           </div>
 
           {/* Features */}
-          <div className="w-full lg:w-[424px] flex flex-col gap-8 lg:gap-15">
+          <div className="w-full lg:w-106 flex flex-col gap-8 lg:gap-15">
             <div>
               <h1 className="text-[20px] lg:text-[24px]">Totally async</h1>
               <p className="text-[14px]">

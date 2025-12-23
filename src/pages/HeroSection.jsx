@@ -3,7 +3,7 @@ import imgi_3 from '../assets/imgi_3.svg'
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen w-full flex flex-col items-center  px-4 relative">
+    <section className="min-h-screen w-full flex flex-col items-center justify-center  px-4 relative">
 
       {/* Image */}
 
@@ -31,7 +31,7 @@ const HeroSection = () => {
       />
 
       {/* Heading */}
-      <div className="mt-20 md:mt-32">
+      <div className="mt-20 md:mt-32 ">
         <h1
           className="
             text-4xl 
